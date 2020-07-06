@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(2kb.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: cover;
+}
+
+.nav-bar {
+    background: rgb(0, 0, 0, 0.5);
+    height: 80px
+}
+
+.logo {
+    margin: 26px 50px;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #ffffff;
+}
+
+.menu li a:hover {
+    background: #ffffff;
+    transition: 3s;
+    columns: #000000;
+}
+
+.welcome {
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    top: 100px;
+}
+
+.music {
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    top: 100px;
+}
+
+.music a {
+    color: #e6ff09;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: wavy;
+}
+
+.music2 {
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    top: 100px;
+}
+
+.music2 ul li {
+    display: inline-block;
+}
+
+.music2 ul li a {
+    letter-spacing: 3px;
+    color: #004ec2;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.welcome h1 {
+    font-size: 42px;
+    margin: 25px;
+}
+
+.btn {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+}
+
+.btn1 {
+    background: #ffffff;
+    color: #000000;
+}
+
+.btn2 {
+    background: #ffffff;
+    color: #000000;
+    transition: 4s;
+}
+
+.btn3 {
+    background: #ffffff;
+    color: #000000;
+    transition: 4s;
+}
+
+.contact {
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    top: 190px;
+}
+
+.contact ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.contact2 {
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    top: 153px;
+}
+
+.contact2 ul li {
+    display: inline-block;
+    list-style: none;
+}
